@@ -73,9 +73,14 @@
 </div>
 <h1 style="color: black;">PC informasjon</h1>
 <div id="tekst">
+  <p id="appversion"></p>
+  <p id="cpu"></p>
   <script>
+     var appv = navigator.appVersion;
+     var cpu1 = unMaskedInfo.vendor;
 
-  </script>
+      document.getElementById('appversion').innerHTML = appV;
+      </script>
 </div>
 </body>
 <footer>
