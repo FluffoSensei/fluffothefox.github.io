@@ -4,10 +4,34 @@ body {
   color: white;
 }
 
-h2 {
-  font-size: 30px;
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.menu-border {
+    display: inline;
+    boder: 10px;
+    border-style: solid;
+    padding: 10px;
+    justify-content: space-space-between;
+    background-color: cyan;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+table, th, td {
+  border: 1px solid white;
 }
 
 p {
-  font-size: 14px;
+  font-size: 15px;
+  text-align: left;
+  font-family: 'Noto Sans JP', sans-serif;
 }
